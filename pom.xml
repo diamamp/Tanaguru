@@ -70,7 +70,8 @@
                 <version>2.7.2</version>
                 <configuration> 
 <!--                    <skipTests>true</skipTests>-->
-                    <encoding>UTF-8</encoding>
+                    <!--<encoding>UTF-8</encoding>-->
+                    <argLine>-Xmx1024M</argLine>
                 </configuration>
             </plugin>
         </plugins>
