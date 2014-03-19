@@ -56,7 +56,7 @@ import org.springframework.ui.ExtendedModelMap;
 import org.springframework.ui.Model;
 
 /**
- * -----------------------------------------
+ * ----------------------------------------- neyo
  * @author jkowalczyk
  */
 public class AuditSetUpControllerTest extends TestCase {
