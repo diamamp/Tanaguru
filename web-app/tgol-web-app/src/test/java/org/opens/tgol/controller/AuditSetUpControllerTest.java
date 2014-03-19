@@ -22,8 +22,10 @@
 package org.opens.tgol.controller;
 
 import java.util.*;
+
 import junit.framework.TestCase;
 import static org.easymock.EasyMock.*;
+
 import org.opens.tanaguru.entity.parameterization.Parameter;
 import org.opens.tanaguru.entity.parameterization.ParameterElement;
 import org.opens.tanaguru.entity.service.parameterization.ParameterElementDataService;
@@ -62,7 +64,8 @@ public class AuditSetUpControllerTest extends TestCase {
     private AuditSetUpController instance;
 
     Authentication mockAuthentication;
-    AuthenticationDetails mockAuthenticationDetails;
+    @SuppressWarnings("deprecation")
+	AuthenticationDetails mockAuthenticationDetails;
     ActDataService mockActDataService;
     User mockUser;
     UserDataService mockUserDataService;
